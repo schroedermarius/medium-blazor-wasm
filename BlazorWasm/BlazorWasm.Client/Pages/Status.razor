@@ -1,0 +1,30 @@
+@page "/Status"
+@page "/Status/{Id:int}"
+
+@inject HttpClient Http
+
+<h3>Status</h3>
+
+<p>Id: @Id</p>
+<p>Result: @StatusResult</p>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    
+    private string StatusResult { get; set; } = null!;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        try
+        {
+            StatusResult = await Http.GetStringAsync("api/status/" + Id);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
+    }
+}

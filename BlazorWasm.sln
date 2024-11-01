@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasm", "BlazorWasm\BlazorWasm\BlazorWasm.csproj", "{F1E3902A-1E8B-451C-9230-3F9997AC964A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasm.Client", "BlazorWasm\BlazorWasm.Client\BlazorWasm.Client.csproj", "{0C095DED-91B0-4E8E-8B62-2F65944889DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1E3902A-1E8B-451C-9230-3F9997AC964A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E3902A-1E8B-451C-9230-3F9997AC964A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E3902A-1E8B-451C-9230-3F9997AC964A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E3902A-1E8B-451C-9230-3F9997AC964A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C095DED-91B0-4E8E-8B62-2F65944889DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C095DED-91B0-4E8E-8B62-2F65944889DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C095DED-91B0-4E8E-8B62-2F65944889DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C095DED-91B0-4E8E-8B62-2F65944889DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
