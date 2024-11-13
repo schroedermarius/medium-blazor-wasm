@@ -1,0 +1,14 @@
+@page "/shared-component"
+
+@using Microsoft.AspNetCore.Components
+
+<HeadContent>
+    <script src="shared.js"></script>
+</HeadContent>
+
+<h3>@Title</h3>
+
+@code {
+    [Parameter]
+    public string Title { get; set; }
+}
