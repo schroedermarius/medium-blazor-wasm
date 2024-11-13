@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{F6A82598-6DB1-40
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasm.Shared", "BlazorWasm\BlazorWasm.Shared\BlazorWasm.Shared.csproj", "{CD80DC72-2086-41A1-A318-81A08A64C703}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{0C095DED-91B0-4E8E-8B62-2F65944889DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C095DED-91B0-4E8E-8B62-2F65944889DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C095DED-91B0-4E8E-8B62-2F65944889DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD80DC72-2086-41A1-A318-81A08A64C703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD80DC72-2086-41A1-A318-81A08A64C703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD80DC72-2086-41A1-A318-81A08A64C703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD80DC72-2086-41A1-A318-81A08A64C703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
