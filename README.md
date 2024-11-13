@@ -18,6 +18,7 @@ By keeping all projects in sync, this hosted setup simplifies deployment while e
 - Interactive WebAssembly rendering mode, adjusted for seamless HTTP requests.
 - Shared component library for reusable components and services.
 - Azure compatibility with easy deployment as a single web app, ideal for hosting behind an Azure Front Door.
+- Share Component to showcase how to use the Share Web API.
 
 ## Project Structure
 - Client Project (BlazorWasm.Client):
@@ -28,7 +29,7 @@ By keeping all projects in sync, this hosted setup simplifies deployment while e
   - Serves as a single entry point for the hosted setup, streaming WebAssembly assets to the client.
 - Shared Project (BlazorWasm.Shared):
   - Contains reusable components, services, and models.
-  - Provides a centralized location for shared logic and UI elements.
+  - Provides a centralized location for shared logic and UI elements, including the Share Component.
 
 ## Setup
 To run this project locally:
@@ -59,6 +60,10 @@ The Status page accepts an `Id` parameter. To use this:
 ### Using the Shared Component Library
 1. Add new components to the shared project.
 2. Reference shared components in the client project by using the `@using` directive.
+
+### Using the Share Component
+1. Add the `ShareComponent` to your page.
+2. Pass the `Title`, `Text`, and `Url` parameters to configure the shared content.
 
 ## Contributing
 Contributions are welcome! If you find issues or have improvements, please submit a pull request or open an issue.
